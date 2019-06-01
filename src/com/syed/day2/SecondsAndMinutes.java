@@ -2,6 +2,8 @@ package com.syed.day2;
 
 public class SecondsAndMinutes {
 
+    private final static String INVALID_MESSAGE = "Invalid value";
+
     public static void main(String[] args) {
         System.out.println(getDurationString(20000));
     }
@@ -13,7 +15,7 @@ public class SecondsAndMinutes {
             min=minutes%60;
             return hours + "h " + min + "m " + seconds + "s";
         }
-        return "Invalid value";
+        return INVALID_MESSAGE;
     }
 
     private static String getDurationString(int seconds) {
@@ -22,6 +24,6 @@ public class SecondsAndMinutes {
             min = seconds/60;
             return getDurationString(min, seconds%60);
         }
-        return "Invalid value";
+        return INVALID_MESSAGE;
     }
 }
