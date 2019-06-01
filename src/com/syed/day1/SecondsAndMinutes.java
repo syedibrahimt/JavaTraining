@@ -1,4 +1,4 @@
-package com.syed.day2;
+package com.syed.day1;
 
 public class SecondsAndMinutes {
 
