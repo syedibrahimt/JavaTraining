@@ -14,7 +14,7 @@ public class CustomException {
         try {
             if(name.equalsIgnoreCase("syed")) throw new SyedException("Name Should not be SYed");
         } catch (SyedException e) {
-            System.out.println(e);;
+            System.out.println(e);
         }
     }
 }
