@@ -4,7 +4,7 @@ import java.util.*;
 
 public class SetAndMap {
     public static void main(String[] args) {
-        Set<Integer> ageSet = new HashSet<>();
+        Set<Integer> ageSet = new LinkedHashSet<>();
         ageSet.add(12);
         ageSet.add(12);
         ageSet.add(12);
