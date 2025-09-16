@@ -1,0 +1,13 @@
+package com.syed.day19;
+
+public class Main {
+    public static void main(String[] args) {
+        Calculator calc = new Calculator();
+        calc.add(2, 3);
+        String[] strArr = new String[5];
+        int[] arr = {1,2,3,4,5};
+        for (int i = 0; i< arr.length; i++) {
+            System.out.println(arr[i]);
+        }
+    }
+}
